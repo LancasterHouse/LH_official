@@ -1,13 +1,19 @@
 import './App.css';
-import Landing from './pages/Landing';
+// import Header from './components/Header';
+import NavbarComp from './components/Navbar';
+// import Footer from './components/Footer';
+// import Landing from './pages/Landing';
 
 function App() {
   return (
     
-    <div>
-      <h1>hello world</h1>
-      <Landing />
-    </div>
+    <>
+      {/* <Header /> */}
+      <NavbarComp />
+      
+      {/* <Landing /> */}
+      {/* <Footer /> */}
+    </>
   );
 }
 

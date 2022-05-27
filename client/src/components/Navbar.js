@@ -1,54 +1,38 @@
-// import { format } from 'express/lib/response';
-import { Router } from 'express';
-import React, { Component } from 'react';
-import { Navbar, Nav, NavDropdown, Container  } from 'react-bootstrap';
-// import {
-//     BrowserRouter as Router,
-//     Switch,
-//     Route,
-//     Link
-// } from 'react-router-dom';
+import { useRef } from "react";
+import {FaBars, FaTimes } from "react-icons/fa";
+import "../Styles/main.css";
 
+function NavbarComp() {
 
-export const NavbarComp = () => {
-    return (
-        <Router>
-            <div>
-                <Navbar bg="light" expand="lg" >
-                        
-                        <Container>
-                            {/* <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand> */}
-                            <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                            <Navbar.Collapse id="basic-navbar-nav">
-                                <Nav className="me-auto">
-                                <Nav.Link href="#home">Home</Nav.Link>
-                                <Nav.Link href="#link">About us</Nav.Link>                            
-                                <NavDropdown title="Conference & Training" id="basic-nav-dropdown">
-                                    <NavDropdown.Item href="#action/3.1">Conferences</NavDropdown.Item>
-                                    <NavDropdown.Item href="#action/3.2">Upcoming Webinars</NavDropdown.Item>
-                                    <NavDropdown.Item href="#action/3.3">Professional Learning Program</NavDropdown.Item>
-                                    <NavDropdown.Item href="#action/3.4">Webinar & Audio Conference Library</NavDropdown.Item>
-                                    <NavDropdown.Item href="#action/3.5">Skills Training</NavDropdown.Item>
-                                    <NavDropdown.Item href="#action/3.6">Customized Training</NavDropdown.Item>
+  const navRef = useRef();
+  
+  const showNavbar = () => {
+    navRef.current.classList.toggle("responsive_nav");
+  }
 
+  return (
+    <header>
+      <nav ref={navRef}>
+          <a href="/#">CART</a>
+          <a href="/#">ACCOUNT</a>
 
-                                    {/* <NavDropdown.Divider />
-                                    <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item> */}
-                                </NavDropdown>
-                                <Nav.Link href="#link">First Resort</Nav.Link>
-                                <Nav.Link href="#link">Unionized Workplace Law</Nav.Link>
-                                <Nav.Link href="#link">Events Calander</Nav.Link>
-                                <Nav.Link href="#link">Publications</Nav.Link>
-                                <Nav.Link href="#link">Labour Arbitration in Canada</Nav.Link>
+          <a href="/#">SEARCH</a>
 
-                                
-                                </Nav>
-                            </Navbar.Collapse>
-                        </Container>
-                    </Navbar>
-            </div>
-        </Router>
-    );
-};
+          <a href="/#">CONTACT</a>
+          <button className="nav-btn nav-close-btn" onClick={showNavbar}>
+            <FaTimes />
+          </button>
 
-export default NavbarComp; 
+      </nav>
+      <button className="nav-btn" onClick={showNavbar}>
+          <FaBars />
+      </button>
+
+      <h3>Logo</h3>
+
+      
+    </header>
+  );
+}
+
+export default NavbarComp;
