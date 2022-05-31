@@ -12,10 +12,16 @@
     --mainColor: #872727;
     --secondaryColor: #1a012;
     --thirdColor: #5c6479;
+    --fourthColor: #190420;
     --firstWhite: #eee;
     --secondWhite: #ffffff;
+    --textColor: black;
 
 }
+
+
+
+/* //upper nav bar styling */
 
 header {
     display: flex;
@@ -86,4 +92,108 @@ header .nav-btn {
     }
 
     
+}
+
+/* //lower nav and logo styling */
+
+
+.LowHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    padding: 0 2rem;
+    background-color: var(--secondWhite);
+    color: var(--textColor);
+}
+
+.LowNav a{
+    margin: 0 2rem;
+    color: var(--textColor);
+    text-decoration: none;
+}
+
+.LowNav a:hover{
+    color: var(--textColor);
+}
+
+.Lowheader .nav-btn {
+    padding: 5px;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #eee;
+    visibility: hidden;
+    opacity: 0;
+    font-size: 1.8rem;
+}
+
+@media only screen and (max-width: 1024px){
+    .LowHeader .nav-btn {
+        visibility: visible;
+        opacity: 1;
+    }
+
+    .LowHeader .LowNav{
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1.5rem;
+        background-color: var(--secondaryColor);
+        transition: 1s;
+        transform: translateY(-100vh);
+    }
+
+    .LowHeader .responsive_nav{
+        transform: none;
+    }
+
+    .LowNav .nav-close-btn {
+        position: absolute;
+        top: 2rem;
+        right: 2rem;
+    }
+
+    .LowNav a{
+        font-size: 1.5rem;
+    }
+
+    
+}
+
+/* //jumbotron styling */
+
+
+
+
+
+
+
+
+/* //footer styling */
+
+.footer {
+    background-color: var(--mainColor);
+    max-height: 25rem;
+    min-height: 10rem;
+}
+
+.footer ul li {
+    font: var(--firstWhite);
+}
+
+.location h4 ul li{
+    color: var(--firstWhite);
+}
+
+.copyright {
+    background-color: var(--fourthColor);
+    color: var(--firstWhite);
 }
