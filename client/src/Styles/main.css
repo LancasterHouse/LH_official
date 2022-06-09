@@ -170,7 +170,14 @@ header .nav-btn {
 
 /* //jumbotron styling */
 
+.jumbotron {
+    background: #66ade1;
+    /* background-color: #66ade1; */
+}
 
+.jumboInnerBox {
+    background: #afc6d6;
+}
 
 
 
@@ -181,12 +188,23 @@ header .nav-btn {
 
 .footer {
     background-color: var(--mainColor);
-    max-height: 25rem;
+    /* max-height: 25rem; */
     min-height: 10rem;
+    border-bottom: 5px solid #5c6479;
+}
+.footerList {
+    color: var(--firstWhite);
 }
 
-.footer ul li {
-    font: var(--firstWhite);
+.footerList a{
+    color: var(--firstWhite);
+}
+
+
+
+.logoImage {
+    width: 300px;
+    height: inherit;
 }
 
 .location h4 ul li{
@@ -197,3 +215,16 @@ header .nav-btn {
     background-color: var(--fourthColor);
     color: var(--firstWhite);
 }
+
+/* //carousel  */
+
+.text-block {
+    position: absolute;
+    text-align: left;
+    bottom: 10rem;
+    right: 5rem;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+  }

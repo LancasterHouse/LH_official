@@ -4,6 +4,7 @@ import NavbarComp from './components/Navbar';
 import LowerNav from './components/LowerNav';
 import JumbotronExample from './components/Jumbotron';
 import Footer from './components/Footer';
+import JumboCarousel from './components/Carousel';
 // import Landing from './pages/Landing';
 
 function App() {
@@ -13,7 +14,8 @@ function App() {
       {/* <Header /> */}
       <NavbarComp />
       <LowerNav />
-      <JumbotronExample />
+      {/* <JumbotronExample /> */}
+      <JumboCarousel />
       <Footer />
       {/* <Landing /> */}
     </>
