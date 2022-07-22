@@ -228,3 +228,13 @@ header .nav-btn {
     padding-left: 20px;
     padding-right: 20px;
   }
+
+
+
+/* //Professional learning program PLP */
+
+.plp-text-box h1{
+    text-align: center;
+    background: #ffffff;
+    border-bottom: 2px solid black;
+}

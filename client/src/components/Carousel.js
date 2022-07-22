@@ -54,7 +54,7 @@ export default function JumboCarousel() {
                   </Carousel.Caption>
               </Carousel.Item>
               <Carousel.Item>
-                  <img width={900} height={500} alt="900x500" src={Slide3} />
+                  <img width={900} height={400} alt="900x500" src={Slide3} />
                   <Carousel.Caption>
                   <div className="text-block">
                         <h3>Conference title</h3>
