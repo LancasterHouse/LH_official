@@ -21,11 +21,22 @@ import Container from 'container/lib/container';
 function App() {
   return (
     
-    <>
+    <BrowserRouter>
+    <Routes>
+      <Route path='/' element={<Landing />} />
+      <Route path='/about' element={<div>About</div>} />
+      <Route path='/jobs' element={<div>Join Our Team</div>} />
+      <Route path='/aodapolicy' element={<div>AODA POLICY</div>} />
+      <Route path='/legalNotices' element={<div>Legal Notices</div>} />
+      <Route path='/refundPolicy' element={<div>REFUND POLICY</div>} />
+      <Route path='/privacyPolicy' element={<div>Privacy Policy</div>} />
+      <Route path='/termsAndConditions' element={<div>Terms and Conditions</div>} />
+
+    </Routes>
       
-      <Landing />
       
-    </>
+      
+    </BrowserRouter>
 
    
     
