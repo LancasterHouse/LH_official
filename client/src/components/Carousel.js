@@ -4,7 +4,7 @@
 // import Item from "reactstrap/lib/Carousel";
 // import Caption from 'react-bootstrap';
 
-import { Button, Contariner, Carousel, Item, Caption, Image} from 'react-bootstrap';
+import { Button, Carousel, Item, Caption, Image} from 'react-bootstrap';
 import Slide1 from '../assets/images/Slide1.png';
 import Slide2 from '../assets/images/Slide2.jpg';
 

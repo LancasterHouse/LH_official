@@ -10,7 +10,7 @@ import {
 // import Header from './components/Header';
 import NavbarComp from './components/Navbar';
 import LowerNav from './components/LowerNav';
-import JumbotronExample from './components/Jumbotron';
+// import JumbotronExample from './components/Jumbotron';
 import Footer from './components/Footer';
 import JumboCarousel from './components/Carousel';
 import PLP from './components/ProfessionalLP';
@@ -20,7 +20,9 @@ import Container from 'container/lib/container';
 //Pages
 import Landing from './pages/Landing';
 import About from './pages/About'
-
+import Aodapolicy from './pages/AodaPolicy';
+import LegalNotices from './pages/LegalNotices';
+import Terms from './pages/Terms';
 
 function App() {
   return (
@@ -30,11 +32,11 @@ function App() {
       <Route path='/' element={<Landing />} />
       <Route path='/about' element={<About />} />
       <Route path='/jobs' element={<div>Join Our Team</div>} />
-      <Route path='/aodapolicy' element={<div>AODA POLICY</div>} />
-      <Route path='/legalNotices' element={<div>Legal Notices</div>} />
+      <Route path='/aodapolicy' element={<Aodapolicy />} />
+      <Route path='/legalNotices' element={<LegalNotices />} />
       <Route path='/refundPolicy' element={<div>REFUND POLICY</div>} />
       <Route path='/privacyPolicy' element={<div>Privacy Policy</div>} />
-      <Route path='/termsAndConditions' element={<div>Terms and Conditions</div>} />
+      <Route path='/termsAndConditions' element={<Terms />} />
 
     </Routes>
       
