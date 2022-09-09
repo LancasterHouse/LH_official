@@ -15,8 +15,12 @@ import Footer from './components/Footer';
 import JumboCarousel from './components/Carousel';
 import PLP from './components/ProfessionalLP';
 import StudentAccess from './components/StudentAccess';
-import Landing from './pages/Landing';
 import Container from 'container/lib/container';
+
+//Pages
+import Landing from './pages/Landing';
+import About from './pages/About'
+
 
 function App() {
   return (
@@ -24,7 +28,7 @@ function App() {
     <BrowserRouter>
     <Routes>
       <Route path='/' element={<Landing />} />
-      <Route path='/about' element={<div>About</div>} />
+      <Route path='/about' element={<About />} />
       <Route path='/jobs' element={<div>Join Our Team</div>} />
       <Route path='/aodapolicy' element={<div>AODA POLICY</div>} />
       <Route path='/legalNotices' element={<div>Legal Notices</div>} />
