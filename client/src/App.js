@@ -23,6 +23,9 @@ import About from './pages/About'
 import Aodapolicy from './pages/AodaPolicy';
 import LegalNotices from './pages/LegalNotices';
 import Terms from './pages/Terms';
+import Refund from './pages/RefundPolicy'
+import Privacy from './pages/PrivacyPolicy'
+import Careers from './pages/Careers'
 
 function App() {
   return (
@@ -31,12 +34,18 @@ function App() {
     <Routes>
       <Route path='/' element={<Landing />} />
       <Route path='/about' element={<About />} />
-      <Route path='/jobs' element={<div>Join Our Team</div>} />
+      <Route path='/careers' element={<Careers />} />
       <Route path='/aodapolicy' element={<Aodapolicy />} />
       <Route path='/legalNotices' element={<LegalNotices />} />
-      <Route path='/refundPolicy' element={<div>REFUND POLICY</div>} />
-      <Route path='/privacyPolicy' element={<div>Privacy Policy</div>} />
+      <Route path='/refundPolicy' element={<Refund />} />
+      <Route path='/privacyPolicy' element={<Privacy />} />
       <Route path='/termsAndConditions' element={<Terms />} />
+
+
+
+      {/* //error */}
+      <Route path="*" element={<h1>Error</h1>} />
+      
 
     </Routes>
       
