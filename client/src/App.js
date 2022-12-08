@@ -26,6 +26,7 @@ import Terms from './pages/Terms';
 import Refund from './pages/RefundPolicy'
 import Privacy from './pages/PrivacyPolicy'
 import Careers from './pages/Careers'
+import Conference_Temp from './pages/Conference_Temp'
 
 function App() {
   return (
@@ -40,6 +41,8 @@ function App() {
       <Route path='/refundPolicy' element={<Refund />} />
       <Route path='/privacyPolicy' element={<Privacy />} />
       <Route path='/termsAndConditions' element={<Terms />} />
+      <Route path='/conference' element={<Conference_Temp />} />
+
 
 
 
