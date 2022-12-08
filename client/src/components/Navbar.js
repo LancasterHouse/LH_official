@@ -11,7 +11,7 @@ function NavbarComp() {
   }
 
   return (
-    <header>
+    <header className="upper-nav">
       <nav ref={navRef}>
           <a href="/#">CART</a>
           <a href="/#">ACCOUNT</a>
@@ -28,7 +28,7 @@ function NavbarComp() {
           <FaBars />
       </button>
 
-      <h3>Logo</h3>
+    
 
       
     </header>

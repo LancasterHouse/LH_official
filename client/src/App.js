@@ -10,7 +10,7 @@ import {
 // import Header from './components/Header';
 import NavbarComp from './components/Navbar';
 import LowerNav from './components/LowerNav';
-import JumbotronExample from './components/Jumbotron';
+// import JumbotronExample from './components/Jumbotron';
 import Footer from './components/Footer';
 import JumboCarousel from './components/Carousel';
 import PLP from './components/ProfessionalLP';

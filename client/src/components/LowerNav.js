@@ -1,6 +1,6 @@
 import { useRef } from "react";
 import {FaBars, FaTimes } from "react-icons/fa";
-import Logo from "../assets/images/lhlogo.png";
+import Logo from "../assets/images/LH-transparent.png";
 import "../Styles/main.css";
 
 function LowerNav() {
@@ -14,7 +14,7 @@ function LowerNav() {
   return (
     <div className="LowHeader">
         <div>
-        <img src="Logo"  alt="Lancaster House logo"/>
+        <img className="logo" src={Logo}  alt="Lancaster House logo"/>
 
         </div>
 
