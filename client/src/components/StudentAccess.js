@@ -1,6 +1,5 @@
 import { Image, Button } from 'react-bootstrap';
-import bookImage from "../assets/images/StudentAccess/bookstore-image.png";
-import cleljThumbImage from "../assets/images/StudentAccess/clelj.png";
+import StudentImage from "../assets/images/StudentAccess/sap.jpg";
 
 import React from "react";
 
@@ -8,42 +7,19 @@ export default function StudentAccess() {
     return (
       <>
 
-<div class="flex">
-        <div className='directory-box'>
-            <div className='directory-text-box'>
-                <h3>Directory of Arbitrators</h3>
-            
-
-                <Button>Learn more</Button>
-            </div>
-           
-        </div>
         <div className='student-box'>
+            <Image src={StudentImage} />
             <div className='student-text-box'>
-                <h3>Student Access Program</h3>
+                <h3>Student</h3>
+                <h3>Access</h3>
+
+                <h3>Program</h3>
 
                 <Button>Learn more</Button>
             </div>
            
         </div>
-        <div className='link-box'>
-            <div className='link-box-inner'>
-                <img src={bookImage} alt="bookstore" />
-                <div>
-                <p>Browse our Bookstore</p>
-                <a href="#test">More Information ></a>
-                </div>
-            </div>
-            <div className='link-box-inner'>
-                <img src={cleljThumbImage} alt="clelj Thumb" />
-                <div>
-                <p>Canadian Labour &amp; Employment Law Journal</p>
-                <a href="#test">Read more ></a>
-                </div>
-            </div>
-           
-        </div>
-</div>
+        
         
      
        
