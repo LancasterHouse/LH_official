@@ -31,14 +31,14 @@ export default function StudentAccess() {
                 <img src={bookImage} alt="bookstore" />
                 <div>
                 <p>Browse our Bookstore</p>
-                <a href="#test">More Information ></a>
+                <a href="#test">More Information </a>
                 </div>
             </div>
             <div className='link-box-inner'>
                 <img src={cleljThumbImage} alt="clelj Thumb" />
                 <div>
                 <p>Canadian Labour &amp; Employment Law Journal</p>
-                <a href="#test">Read more ></a>
+                <a href="#test">Read more </a>
                 </div>
             </div>
            
