@@ -45,7 +45,7 @@ function LowerNav() {
 
       
     </div>
-  );
+  )
 }
 
 export default LowerNav;

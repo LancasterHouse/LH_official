@@ -17,6 +17,7 @@
 }
 .flex {
     display:flex;
+    flex-wrap: wrap;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&display=swap');
@@ -77,6 +78,9 @@ p {
 .emailLink:hover {
     color: var(--firstWhite);
     text-decoration: none;
+}
+.text-center {
+    text-align: center;
 }
 
 @media only screen and (max-width: 1024px){
@@ -243,6 +247,7 @@ p {
     display: flex;
     justify-content:center;
     text-align: center;
+    overflow:hidden;
 }
 
 /* //carousel  */
@@ -346,6 +351,25 @@ p {
     grid-column: 1 / 3;
 }
 
+/* //Upcoming */
+
+.conference-row {
+    padding:1% 3%;
+}
+.conference-row h3 {
+    font-weight: bold;
+    color: var(--secondaryColor);
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+.conference-row p {
+    font-weight: 400;
+    color: var(--thirdColor);
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+
 /* //Professional learning program PLP */
 
 
@@ -400,3 +424,102 @@ p {
     flex-direction: row;
     flex-wrap: wrap;
    }
+
+   #rectangle {
+    width: 200px;
+    height: 20px;
+    background: #00a3ad;
+  }
+
+   .plp-title {
+    font-weight:bold;
+    color: #363636;
+    font-size:40px;
+    }
+    .plp-subtitle {
+        font-weight:500;
+        color: #363636;
+        font-size:30px;
+        }
+
+   .parallelogram {
+	width: 60%;
+	height: 350px;
+	background-image: url("../assets/images/PLP/plp-background.jpg");
+    background-size:cover;
+}
+    .plp-lrc {
+    position: absolute;
+    right: 30px;
+    top: 250px;
+    font-size:18px;
+    font-weight:bold;
+    background-color:rgba(255, 255, 255, 0.75);
+    padding:10px;
+    }
+    .big-title {
+        font-weight:bold;
+        color: var(--secondaryColor);
+        font-size:34px;
+        padding: 15px 0;
+    }
+
+.PLP-Left {
+	width: 40%;
+	height: 300px;
+}
+.iconSize {
+    max-width:300px;
+}
+.ytSize {
+    max-width:100px;
+}
+
+.plp-box-LRC {
+    padding:30px; position: relative
+}
+
+.parallelogram-wrap {
+	overflow: hidden;
+    display:flex;
+    flex-wrap: nowrap;
+}
+
+
+@media only screen and (max-width: 1185px) {
+ .carousel-control-next, .carousel-control-prev {
+    justify-content:center;
+    align-items:center;
+    top: 32%;
+    width: 100px;
+    height: 100px;
+    background: no-repeat #5c6479;
+  }
+
+  .directory-box {
+    min-width:50%;
+   }
+
+   .student-box {
+    min-width:50%;
+    }
+    .link-box {
+    min-width:100%;
+    }
+    .link-box-inner {
+        width: 50%;
+    }
+    .links {padding-top: 25px}
+
+    .links .footerList { text-align: right;}
+
+    .carousel {min-height: 400px;}
+
+    .carousel-item {min-height: 400px; width: 100%;}
+
+    .carousel-item img {
+        width: auto;
+        object-fit: cover;
+        object-position: -80px;
+    }
+}

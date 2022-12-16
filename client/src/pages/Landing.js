@@ -6,7 +6,7 @@ import Footer from '../components/Footer';
 import JumboCarousel from '../components/Carousel';
 import PLP from '../components/ProfessionalLP';
 import StudentAccess from '../components/StudentAccess';
-
+import Upcoming from '../components/Upcoming';
 
 const Landing = () => {
   return (
@@ -14,6 +14,7 @@ const Landing = () => {
         <NavbarComp />
         <LowerNav />
         <JumboCarousel />
+        <Upcoming />
         <PLP />
         <StudentAccess />
         <Footer />

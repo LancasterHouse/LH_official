@@ -72,9 +72,9 @@ export default function JumboCarousel() {
                   
                   </Carousel.Caption>
               </Carousel.Item>
-          </Carousel>;
+          </Carousel>
         {/* </Container> */}
         
       </>
-    );
+    )
   }

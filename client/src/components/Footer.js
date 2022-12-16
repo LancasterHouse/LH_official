@@ -10,13 +10,13 @@ return (
     <div className="mt-5 pt-5 pb-5 footer">
       <div className="container">
         <div className="row">
-          <div className="col-lg-5 col-xs-12 about-company">
+          <div className="col-lg-5 col-md-12 col-xs-12 about-company">
             <img src={logo} alt="Lancaster House logo" className="logoImage" />
             
           
           </div>
          
-          <div className="col-lg-4 col-xs-12 location">
+          <div className="col-lg-4  col-md-6 col-xs-12 location">
             <h4 className="mt-lg-0 mt-sm-4 footerList">Lancaster House</h4>
             <ul className="mb-0 footerList">
               <li>188 Yonge Street, Suite 200</li>
@@ -34,7 +34,7 @@ return (
             <p><a href="#"><i className="fa fa-facebook-square mr-1"></i></a><a href="#"><i className="fa fa-linkedin-square"></i></a></p>
            
           </div>
-          <div className="col-lg-3 col-xs-12 links">
+          <div className="col-lg-3 col-md-6 col-xs-12 links">
             {/* <h4 className="mt-lg-0 mt-sm-3">Links</h4> */}
               <ul className="m-0 p-0 footerList">
                <li><a href="#">Terms and Conditions</a></li>
