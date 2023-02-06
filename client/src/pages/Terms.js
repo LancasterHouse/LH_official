@@ -9,8 +9,10 @@ const Terms = () => {
     <>
         <NavbarComp />
         <LowerNav />
-            <div>
+        <div class="standerd-header flex">
                 <h1>Terms and Conditions</h1>
+                </div>
+            <div class="standerd-content">
                 <p>All prices are payable in Canadian funds, and payment is due to Lancaster House upon receipt.</p>
                 <p>All prices are subject to change without notice.</p>
                 <p>Claims for missing or non-receipt of conference/workshop materials should be made no later than 15 days after the conference/workshop date.</p>

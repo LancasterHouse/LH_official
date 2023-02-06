@@ -8,7 +8,10 @@ const RefundPolicy = () => {
     <>
         <NavbarComp />
         <LowerNav />
-            <div>
+        <div class="standerd-header flex">
+                <h1>Refund policy</h1>
+            </div>
+            <div class="standerd-content">
                 <p>A refund and/or credit for future Lancaster House events is available according to when the request is placed. Please contact customer service at <a href='mailto:customerservice@lancasterhouse.com'>customerservice@lancasterhouse.com</a> if you need to request a refund and/or credit for your existing registration.</p>
 
                 <p>Please note that some Lancaster House conferences are preceded by a "pre-conference workshop," which is considered to be the first day of the event for the purposes of this policy. For professional learning programs, the "program start date" shall be understood as the date of the program's first session.</p>

@@ -9,10 +9,11 @@ const Aodapolicy = () => {
     <>
         <NavbarComp />
         <LowerNav />
-            <div>
-                <h1>Accessible Customer Service Plan Providing Goods and Services to People with Disabilities<span>Lancaster House is committed to excellence in serving all customers, including people with disabilities.</span></h1>
-
-
+        <div class="standerd-header flex">
+                <h1>AODA Policy</h1>
+                </div>
+            <div class="standerd-content">
+                <p>Accessible Customer Service Plan Providing Goods and Services to People with Disabilities Lancaster House is committed to excellence in serving all customers, including people with disabilities. </p>
                 <h3>Assistive devices</h3>
                 <p>We will ensure that our staff are trained on and familiar with the various assistive devices we have on site or that we provide for use by customers with disabilities while accessing our goods or services.</p>
 

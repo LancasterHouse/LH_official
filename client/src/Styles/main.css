@@ -22,6 +22,26 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
+.standerd-header {
+    height:290px;
+    justify-content: center;
+    background-image: url("../assets/images/background-1.jpg");
+    background-position: 25% 75%;
+    background-size: cover;
+}
+.standerd-header h1 {
+    color:#fff;
+    align-self: flex-end;
+    font-weight: 900;
+    padding-bottom:20px;
+}
+.standerd-content {
+    margin: 3% 5%;
+}
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
 
 /* //upper nav bar styling */
 
@@ -250,6 +270,11 @@ p {
     overflow:hidden;
 }
 
+.footer-wrap {
+    max-width: 100%;
+    overflow: hidden;
+}
+
 /* //carousel  */
 
 .carousel-item img {
@@ -325,8 +350,8 @@ p {
  }
 
  #text-block-2 {
-    width:50%;
-    background-color:  var(--mainColor);
+    width:100%;
+    background-color:  var(--secondaryColor);
     font-size: 1.2rem;
     grid-template-columns: 50% 50%;
     grid-template-rows: auto;
@@ -338,6 +363,15 @@ p {
  #text-block-1 p {
     margin:10px 20px;
  }
+
+ #text-block-2 p {
+    margin-top:50px;
+    font-weight: 300;
+ }
+
+.text-block-2-btn-wrap {
+    margin-bottom:30px;
+}
 
  #text-block-1 button {
     margin:10px 20px;
@@ -367,6 +401,64 @@ p {
     color: var(--thirdColor);
     font-size: 14px;
     margin-bottom: 5px;
+}
+.btn-red, .btn-red:visited  {
+    color: var(--secondWhite);
+    background-color: var(--mainColor);
+    border: none;
+    border-radius: 0;
+}
+.btn-red:hover, .btn-red:active {
+    color: var(--secondWhite);
+    background-color: var(--secondaryColor);
+    border: none;
+}
+.conference-info { 
+    padding: 30px 10px;
+}
+
+.conference-info p { 
+    margin-bottom: 0px;
+}
+.conference-btn {
+    margin-top:15px;
+}
+
+.conf-btn-main-wrap {
+    justify-content:center;
+    margin-top: 20px;
+}
+.conference-btn-main {
+    color: var(--secondWhite);
+    font-weight:bold;
+    border: solid 4px var(--mainColor);
+    border-radius:0;
+    padding: 15px 35px;
+}
+.webinar-wrap {
+    justify-content:center;
+    flex-direction: column;
+    align-items:center;
+    text-align: center;
+}
+.webinar-wrap h3 {
+    color: var(--textColor);
+    font-weight:600;
+    margin:15px 0;
+    font-size: 1.4rem;
+}
+.webinar-wrap p {
+    padding:0 15px;
+}
+
+.red-btn {
+    background: linear-gradient(90deg, rgba(178,42,44,1) 0%, rgba(194,74,75,1) 100%);
+}
+.purple-btn  {
+    background: linear-gradient(90deg, rgba(31,7,38,1) 0%, rgba(92,71,97,1) 100%);
+}
+.conf-icon {
+    max-width: 100%;
 }
 
 
@@ -422,7 +514,24 @@ p {
     width: 100%;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: no-wrap;
+    margin-top: 24px;
+   }
+   .link-box-inner img {
+    padding-right:15px;
+   }
+
+   .link-box-inner a {
+    color:#fff;
+   }
+
+   .link-box-title {
+
+   }
+
+   .link-box-inner p { 
+    font-size: 1.3em;
+    font-weight: 700;    
    }
 
    #rectangle {
@@ -484,6 +593,8 @@ p {
     display:flex;
     flex-wrap: nowrap;
 }
+
+/* Mobile */
 
 
 @media only screen and (max-width: 1185px) {

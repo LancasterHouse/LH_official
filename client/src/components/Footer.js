@@ -38,14 +38,12 @@ return (
             {/* <h4 className="mt-lg-0 mt-sm-3">Links</h4> */}
               <ul className="m-0 p-0 footerList">
                <li><a href="#">Terms and Conditions</a></li>
-               <li><a href="#">Privacy Policy</a></li>
-               <li><a href="#">Refund Policy</a></li>
- 
-               <li><a href="#">Legal Notice</a></li>
-
-               <li><a href="#">AODA Policy</a></li>
-               <li><a href="#">About Us</a></li>
-               <li><a href="#">Join Our Team</a> </li>
+               <li><a href="/PrivacyPolicy">Privacy Policy</a></li>
+               <li><a href="/RefundPolicy">Refund Policy</a></li>
+               <li><a href="/LegalNotices">Legal Notice</a></li>
+               <li><a href="/AodaPolicy">AODA Policy</a></li>
+               <li><a href="/About">About Us</a></li>
+               <li><a href="/Careers">Join Our Team</a> </li>
                <li><a href="#">Contact</a></li>
               </ul>
           </div>
@@ -53,7 +51,7 @@ return (
        
       </div>
     </div>
-    <div className="row">
+    <div className="footer-wrap">
       <div className="col  copyright">
         <p className=""><small class="text-white-50">The land on which Lancaster House operates is the traditional territory of the Mississaugas of the Credit, the Anishnabe, Haudensosaunee, and the Wedat peoples, and it is now home to many diverse First Nations, Inuit and Métis.</small></p>
       </div>

@@ -43,15 +43,14 @@ export default function JumboCarousel() {
                   <img src={Slide2} id="slide-background-2" />
                   <Carousel.Caption>
                     <div className="text-block" id="text-block-2">
-                        <h3 class="grid-2">Conference title</h3>
-                        <h4 class="grid-2">Confernece subtitle</h4>
-                        <div>
-                          <p>Date</p>
-                          <Button>More Information</Button>
+                        <h3 class="grid-2">Mental Health: Disabilities at Work</h3>
+                        <h5 class="grid-2">A Practical Guide for Employees, Employers, and Unions</h5>
+                        <div class="grid-2">
+                          <p>By Dr. Mike Condra and Meryl Zisman Gary</p>
                         </div>
-                        <div>
-                          <p>Program type</p>
-                          <Button>Register</Button>
+                          <div class="text-block-2-btn-wrap">
+                            <Button>More Information</Button>
+                            <Button>Purchase</Button>
                         </div>
                         
                     </div>

@@ -9,8 +9,10 @@ const PrivacyPolicy = () => {
     <>
         <NavbarComp />
         <LowerNav />
-            <div>
+        <div class="standerd-header flex">
                 <h1>Privacy Policy</h1>
+                </div>
+            <div class="standerd-content">
                 <p>Lancaster House abides by Canadian and international standards with regard to customer privacy protection. Lancaster House does not collect personal information about you or your company without your consent, and has set up means to keep personal information confidential.</p>
                 <p>At times, Lancaster House may use a Third Party company to perform certain services on its behalf. This may require transfer of information to this company; however, this information will not be used for any purposes other than those for which it was collected.</p>
 

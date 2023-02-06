@@ -21,7 +21,7 @@ function LowerNav() {
 
       <nav className="lowNav" ref={navRef}>
           <a href="/#">Home</a>
-          <a href="/#">About Us</a>
+          <a href="/about">About Us</a>
 
           <a href="/#">Conferences & Training</a>
 

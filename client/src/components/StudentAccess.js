@@ -29,16 +29,16 @@ export default function StudentAccess() {
         <div className='link-box'>
             <div className='link-box-inner'>
                 <img src={bookImage} alt="bookstore" />
-                <div>
+                <div class="link-box-title">
                 <p>Browse our Bookstore</p>
-                <a href="#test">More Information </a>
+                <a href="#test">More Information &#x3E;</a>
                 </div>
             </div>
             <div className='link-box-inner'>
                 <img src={cleljThumbImage} alt="clelj Thumb" />
-                <div>
+                <div class="link-box-title">
                 <p>Canadian Labour &amp; Employment Law Journal</p>
-                <a href="#test">Read more </a>
+                <a href="#test">Read more &#x3E;</a>
                 </div>
             </div>
            
