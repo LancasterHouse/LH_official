@@ -1,8 +1,4 @@
 
-
-
-
-
 import { Image } from 'react-bootstrap';
 import conferenceIcon from "../assets/images/Upcoming/conference_icon1.png";
 import webinarIcon1 from "../assets/images/Upcoming/webinar_icon1.png";

@@ -1,6 +1,7 @@
 import { useRef } from "react";
 import {FaBars, FaTimes } from "react-icons/fa";
 import "../Styles/main.css";
+import { slide as Menu } from 'react-burger-menu'
 
 function NavbarComp() {
 
@@ -13,24 +14,8 @@ function NavbarComp() {
   return (
     <header className="upper-nav">
       <nav ref={navRef}>
-          <a href="/#">CART</a>
-          <a href="/#">ACCOUNT</a>
-
-          <a href="/#">SEARCH</a>
-
-          <a href="/#">CONTACT</a>
-          <button className="nav-btn nav-close-btn" onClick={showNavbar}>
-            <FaTimes />
-          </button>
-
+          <a href="/#">SHOP</a>
       </nav>
-      <button className="nav-btn" onClick={showNavbar}>
-          <FaBars />
-      </button>
-
-    
-
-      
     </header>
   );
 }

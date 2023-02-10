@@ -103,45 +103,6 @@ p {
     text-align: center;
 }
 
-@media only screen and (max-width: 1024px){
-    header .nav-btn {
-        visibility: visible;
-        opacity: 1;
-    }
-
-    header nav{
-        position: fixed;
-        top: 0;
-        left: 0;
-        height: 100%;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        gap: 1.5rem;
-        background-color: var(--mainColor);
-        transition: 1s;
-        transform: translateY(-100vh);
-    }
-
-    header .responsive_nav{
-        transform: none;
-    }
-
-    nav .nav-close-btn {
-        position: absolute;
-        top: 2rem;
-        right: 2rem;
-    }
-
-    nav a{
-        font-size: 1.5rem;
-    }
-
-    
-}
-
 /* //lower nav and logo styling */
 
 
@@ -179,7 +140,7 @@ p {
     opacity: 0;
     font-size: 1.8rem;
 }
-
+/* 
 @media only screen and (max-width: 1024px){
     .LowHeader .nav-btn {
         visibility: visible;
@@ -217,7 +178,7 @@ p {
     }
 
     
-}
+}*/
 
 /* //jumbotron styling */
 
@@ -483,6 +444,10 @@ p {
     background-size: cover;
 }
    /* //Professional learning program PLP */
+
+   .plp-btm-box {
+    position: relative;
+   }
    
    .directory-box {
     background-image: url("../assets/images/StudentAccess/doa.jpg");
@@ -500,6 +465,12 @@ p {
     padding:2rem;
     font-weight:bold;
     color: var(--secondWhite);
+   }
+   .student-text-box {
+    position: absolute;
+    bottom:25px;
+    right: 25px;
+    text-align: right;
    }
    .link-box {
     background-color: var(--secondaryColor);
@@ -634,3 +605,4 @@ p {
         object-position: -80px;
     }
 }
+

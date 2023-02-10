@@ -42,22 +42,10 @@ function App() {
       <Route path='/privacyPolicy' element={<Privacy />} />
       <Route path='/termsAndConditions' element={<Terms />} />
       <Route path='/conference' element={<Conference_Temp />} />
-
-
-
-
       {/* //error */}
       <Route path="*" element={<h1>Error</h1>} />
-      
-
-    </Routes>
-      
-      
-      
+      </Routes>
     </BrowserRouter>
-
-   
-    
   );
 }
 

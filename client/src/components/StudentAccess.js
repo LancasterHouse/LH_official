@@ -9,7 +9,7 @@ export default function StudentAccess() {
       <>
 
 <div class="flex">
-        <div className='directory-box'>
+        <div className='directory-box plp-btm-box'>
             <div className='directory-text-box'>
                 <h3>Directory of Arbitrators</h3>
             
@@ -18,7 +18,7 @@ export default function StudentAccess() {
             </div>
            
         </div>
-        <div className='student-box'>
+        <div className='student-box plp-btm-box'>
             <div className='student-text-box'>
                 <h3>Student Access Program</h3>
 
